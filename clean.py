@@ -49,5 +49,5 @@ def remove_unlabeled_images(image_dir, label_dir):
 splits = ["train", "valid", "test"]
 
 for split in splits:
-    fix_label_format(f"dataset/{split}/labels")
-    remove_unlabeled_images(f"dataset/{split}/images", f"dataset/{split}/labels")
+    fix_label_format(f"dataset2/{split}/labels")
+    remove_unlabeled_images(f"dataset2/{split}/images", f"dataset2/{split}/labels")
