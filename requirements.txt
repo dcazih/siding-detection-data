@@ -1,0 +1,5 @@
+ultralytics>=8.0.0
+wandb>=0.15.0
+opencv-python
+numpy
+pyyaml
